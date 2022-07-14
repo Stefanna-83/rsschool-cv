@@ -6,7 +6,7 @@ __Tel__: [+375447221923](tel:+375447221923)\
 __Email__: [annet.stefanovich@gmail.com](mailto:annet.stefanovich@gmail.com)\
 __Discord__: @Hanna Stefanovich (@Stefanna-83)\
 __City__: Minsk
-***
+
 ## ABOUT ME
 Purposefulness is my credo. At one time, in 4 years, I grew from an editor to the CEO of a large Russian online magazine on special equipment. I also worked as a marketer, SEO specialist, sales manager and head of sales department. Increased the company's profit every year. But I left everything in 2016 to start a family. Now I don't want to go back to the old way. My goal is to obtain a qualification that will allow me to work regardless of my geographic location, fulfill my desire for new knowledge and give me financial stability.\
 I am currently on maternity leave.
