@@ -29,7 +29,7 @@ Analysis of competitors, development of new directions, search for partners, act
 04.2017 Ц 09.2017\
 __CARPET-SERVICE LLC (MINSK)__\
 __Manager of development__\
-Analysis of business processes, creation of department regulations, creation of an active sales department from scratch, marketing, development and implementation of a new company website on WordPress ([коверсервис.бел](https://www.xn--b1aaiaqh2asbie.xn--90ais/))
+Analysis of business processes, creation of department regulations, creation of an active sales department from scratch, marketing, development and implementation of a new company website on WordPress ([https://www.xn--b1aaiaqh2asbie.xn--90ais](https://www.xn--b1aaiaqh2asbie.xn--90ais/))
 
 2011 Ц 02.2016\
 __RIA EXCAVATOR RU (MOSCOW)__\
