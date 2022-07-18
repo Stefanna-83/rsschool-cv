@@ -1,5 +1,5 @@
 # Stefanovich Hanna
-![img](../rsschool-cv/111.png) 
+![img](./img/foto.png) 
 
 
 __Tel__: [+375447221923](tel:+375447221923)\
