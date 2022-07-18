@@ -1,5 +1,5 @@
 .container_header {
-  background-image: url(../assets/img/bg_header.png);
+  background-image: url(./img/bg_header.png);
   background-repeat: no-repeat;
   max-width: 1440px;
   margin: 0 auto;
@@ -7,21 +7,12 @@
 }
 
 .container_footer {
-  background-image: url(../assets/img/bg_footer.png);
+  background-image: url(./img/bg_footer.png);
   background-repeat: no-repeat;
   max-width: 1440px;
   margin: 0 auto;
   color: antiquewhite;
   height: 77px
-}
-
-.bg_h2 {
-  background-image: url(../assets/img/bg_h2.png);
-  background-repeat: repeat-y;
-  max-width: 1440px;
-  margin: 0 auto;
-  color: antiquewhite;
-  height: 20px
 }
 
 .edu-width {
@@ -112,7 +103,7 @@ a.body-link:hover {
 }
 
 h2 {
-  background-image: url(../assets/img/bg_h2.png);
+  background-image: url(./img/bg_h2.png);
   background-repeat: repeat-y;
   padding-left: 30px;
   color: antiquewhite;
