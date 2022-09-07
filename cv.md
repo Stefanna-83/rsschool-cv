@@ -35,7 +35,7 @@ function strCount(obj){
 }
 ``` 
 ## WORK EXPERIENCE
-I have experience with HTML, CSS and WordPress.\ 
+I have experience with HTML, CSS and WordPress.\
 Project [Travel](https://rolling-scopes-school.github.io/stefanna-83-JSFEPRESCHOOL2022Q2/travel/)
 
 ## EDUCATION
