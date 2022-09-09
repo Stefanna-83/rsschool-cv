@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+
+.containerHeader {
+  background-image: url(./img/bg_header.png);
+  background-repeat: no-repeat;
+ max-width: 1440px;
+ height: 250px;
+   margin: 0 auto;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.status {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.foto {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+main {
+  background-color: #faf8e1;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #faf8e1;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  transition: .3s;
+  line-height: 2;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+}
+
+.body-link {
+  transition: .3s;
+  line-height: 2;
+  color: #00506a;
+  text-decoration: none;
+  line-height: normal;
+}
+
+a.body-link:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid #00506a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+ }
+
+.section {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+.sectionRight {
+  margin-right: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+h2 {
+  background-image: url(./img/bg_h2.png);
+  background-repeat: repeat-y;
+  padding-left: 30px;
+  color: antiquewhite;
+  height: 33px;
+  margin-bottom: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.educationBlock {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 15px;
+  
+}
+
+.educationElement {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+    position: relative;
+   
+}
+
+.educationYears {
+  width: 15%;
+}
+
+.contactsContent {
+display: flex;
+  flex-direction: column;
+    gap: 10px;
+ 
+}
+
+.educationSpeciality {
+  width: 40%;
+}
+
+.sidebar {
+  width: 35%;
+} 
+
+.container_footer {
+  background-image: url(./img/bg_footer.png);
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: antiquewhite;
+  height: 77px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 390px;
+  justify-content: center;
+  
+}
+
+
+
+
+
