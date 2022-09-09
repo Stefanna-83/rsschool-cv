@@ -5,14 +5,14 @@
 
 html {
   scroll-behavior: smooth;
- }
+}
 
 .containerHeader {
   background-image: url(./img/bg_header.png);
   background-repeat: no-repeat;
- max-width: 1440px;
- height: 250px;
-   margin: 0 auto;
+  max-width: 1440px;
+  height: 250px;
+  margin: 0 auto;
   color: antiquewhite;
   display: flex;
   flex-direction: row;
@@ -86,7 +86,7 @@ a.body-link:hover {
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 20px;
- }
+}
 
 .section {
   margin-left: 20px;
@@ -94,6 +94,7 @@ a.body-link:hover {
   margin-top: 20px;
   position: relative;
 }
+
 .sectionRight {
   margin-right: 20px;
   margin-top: 20px;
@@ -118,15 +119,14 @@ h2 {
   flex-direction: column;
   position: relative;
   gap: 15px;
-  
+
 }
 
 .educationElement {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-    position: relative;
-   
+  position: relative;
 }
 
 .educationYears {
@@ -134,10 +134,9 @@ h2 {
 }
 
 .contactsContent {
-display: flex;
+  display: flex;
   flex-direction: column;
-    gap: 10px;
- 
+  gap: 10px;
 }
 
 .educationSpeciality {
@@ -146,7 +145,7 @@ display: flex;
 
 .sidebar {
   width: 35%;
-} 
+}
 
 .container_footer {
   background-image: url(./img/bg_footer.png);
@@ -168,10 +167,4 @@ display: flex;
   gap: 20px;
   width: 390px;
   justify-content: center;
-  
 }
-
-
-
-
-
