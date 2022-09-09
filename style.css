@@ -85,10 +85,19 @@ a.body-link:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 20px;
  }
 
 .section {
-  margin: 20px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+.sectionRight {
+  margin-right: 20px;
+  margin-top: 20px;
+  position: relative;
 }
 
 h2 {
@@ -107,6 +116,8 @@ h2 {
 .educationBlock {
   display: flex;
   flex-direction: column;
+  position: relative;
+  gap: 15px;
   
 }
 
@@ -114,13 +125,53 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-bottom: 15px;
+    position: relative;
+   
 }
 
 .educationYears {
   width: 15%;
 }
 
-.educationSpeciality {
-  width: 50%;
+.contactsContent {
+display: flex;
+  flex-direction: column;
+    gap: 10px;
+ 
 }
+
+.educationSpeciality {
+  width: 40%;
+}
+
+.sidebar {
+  width: 35%;
+} 
+
+.container_footer {
+  background-image: url(./img/bg_footer.png);
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: antiquewhite;
+  height: 77px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 390px;
+  justify-content: center;
+  
+}
+
+
+
+
+
