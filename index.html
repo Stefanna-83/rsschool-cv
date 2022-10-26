@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <title>CV</title>
+</head>
+
+<body>
+  <header>
+    <div class="containerHeader">
+      <div><img class="foto" src="./img/foto.png" alt="foto"></div>
+      <div class="headerText">
+        <div>
+          <h1>Stefanovich Hanna</h1>
+        </div>
+        <div class="status">Java Script/Front-end student</div>
+        <div class="menu">
+          <div>
+            <nav>
+              <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About me</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#coding" class="nav-link">Code example</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <nav>
+              <ul class="nav-list">
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#languages" class="nav-link">Languages</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div>
+        <section class="section" id="about">
+          <h2>About me</h2>
+          <p>Purposefulness is my credo. At one time, in 4 years, I grew from an editor to the CEO of a large Russian
+            online magazine on special equipment. But I left everything in 2016 to start a family.</p>
+          <p>Now I don’t want to go back to the old way. Today I am discovering the world of web development and my goal
+            is to immerse myself in it completely! </p>
+        </section>
+        <section class="section" id="work">
+          <h2>Work experience</h2>
+          <p>I have experience with HTML, CSS and WordPress.</p>
+          <p class="bold">Educational projects:</p>
+          <ul><li>Project <a class="body-link"
+              href="https://rolling-scopes-school.github.io/stefanna-83-JSFEPRESCHOOL2022Q2/travel/" target="_blank">Travel</a>.</li>
+           <li>Project <a class="body-link"
+              href="https://rolling-scopes-school.github.io/stefanna-83-JSFE2022Q3/online-zoo/pages/main/" target="_blank">Online-zoo</a>.</li>
+          <li>Project <a class="body-link"
+              href="https://rolling-scopes-school.github.io/stefanna-83-JSFE2022Q3/codejam/" target="_blank">Gem puzzle</a>.</li>
+            </ul>
+        </section>
+        <section class="section" id="education">
+          <h2>Education</h2>
+          <div class="educationBlock">
+            <div class="educationElement">
+              <div class="educationYears">2022</div>
+              <div class="educationSpeciality">
+                <p class="bold">JS/FE RSSchool 2022Q3</p>
+                <p>Courses</p>
+              </div>
+              <div>RSSchool</div>
+            </div>
+            <div class="educationElement">
+              <div class="educationYears">2002 - 2006</div>
+              <div class="educationSpeciality">
+                <p class="bold">Economics and management at the enterprice</p>
+                <p>Higher education</p>
+              </div>
+              <div>Minsk State Higher Radio Engineering College</div>
+            </div>
+            <div class="educationElement">
+              <div class="educationYears">1998 - 2002</div>
+              <div class="educationSpeciality">
+                <p class="bold">Information tachnology software</p>
+                <p>Secondary special education</p>
+              </div>
+              <div>Minsk State Higher Radio Engineering College</div>
+            </div>
+          </div>
+        </section>
+        <section class="section" id="coding">
+          <h2>Code example</h2>
+          <pre>function strCount(obj){
+          let count = 0;
+          for(let key in obj){
+            if(typeof(obj[key]) === 'string'){
+              count += 1;
+            } else if(typeof(obj[key]) === 'object'){
+              count += strCount(obj[key]);
+            }
+          }
+          return count
+        }</pre>
+        </section>
+      </div>
+      <div class="sidebar">
+        <section class="sectionRight" id="contacts">
+          <h2>Contacts</h2>
+          <div class="contactsContent">
+            <div><span class="bold">Email:</span> <a href="mailto:annet.stefanovich@gmail.com" class="body-link"
+                target="_blank">annet.stefanovich@gmail.com</a></div>
+            <div><span class="bold">Discord:</span> @Stefanna#2313</div>
+            <div><span class="bold">GitHub:</span> <a class="body-link" href="https://github.com/Stefanna-83"
+                target="_blank">Stefanna-83</a></div>
+            <div><span class="bold">City:</span> Minsk</div>
+          </div>
+        </section>
+        <section class="sectionRight" id="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>Russian</li>
+            <li>English - A1</li>
+          </ul>
+        </section>
+        <section class="sectionRight" id="skills">
+          <h2>Skills</h2>
+          <p class="bold"> Hard skills:</p>
+          <ul>
+            <li>HTML / CSS (flex / grid) / SASS</li>
+            <li>JavaScript</li>
+            <li>Git / VSCode / Webpack / npm</li>
+            <li>Figma / Photoshop / Perfect pixel</li>
+            <li>MSOffice / Google Docs</li>
+          </ul><br>
+          <p class="bold"> Soft skills:</p>
+          <ul>
+            <li>Communication</li>
+            <li>Time management</li>
+            <li>Analytical thinking</li>
+            <li>Teamwork</li>
+            <li>Conflict resolution</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container_footer">
+      <div class="footerContent">
+        <div><a href="https://rs.school/js/" target="_blank"><img src="./img/logo_RS.png" alt="RSSchool"></a></div>
+        <div>
+          <p>2022</p>
+          <p>GitHub: <a href="https://github.com/Stefanna-83" class="nav-link bold" target="_blank">Stefanna-83</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
